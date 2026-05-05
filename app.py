@@ -1,8 +1,8 @@
 """
-Name: Daniel
-CS230: Section XXX
+Name: Daniel Atie
+CS230: Section 3
 Data: Starbucks Locations Worldwide (filtered to USA)
-URL: (not posted yet)
+URL: https://starbucks-final-gwtrrrqox9ish3zemmbcme.streamlit.app/
 Description:
 This program reads Starbucks store data and lets the user explore US
 Starbucks locations through filters, charts, and a map. The user can
