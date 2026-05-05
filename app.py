@@ -30,7 +30,7 @@ st.set_page_config(
 
 # read the file and only keep US stores
 def load_data():
-    df = pd.read_csv("starbucks.csv")
+    df = pd.read_csv("starbucks.csv", encoding="latin-1")
     df = df[df["Country"] == "US"]
     # brand column is just "Starbucks" for every row so drop it
     df = df.drop(columns=["Brand"])                      #[COLUMNS]
